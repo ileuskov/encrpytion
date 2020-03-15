@@ -48,9 +48,8 @@ public class Main {
                 }
             }
         }
-        String temp = new String(translation); // Initializing a string that stores all the characters from the translation array. That prevents any mistakes passing a value of an array of characters.
 
-        return temp;
+        return new String(translation); // Returning a string that stores all the characters from the translation array. That prevents any mistakes passing a value of an array of characters.
     }
 
     public static String decrypted(String text) {
@@ -76,8 +75,6 @@ public class Main {
                 }
             }
         }
-        String temp = new String(translation); // Initializing a string that stores all the characters from the translation array. That prevents any mistakes passing a value of an array of characters.
-
-        return temp;
+        return new String(translation); // Returning a string that stores all the characters from the translation array. That prevents any mistakes passing a value of an array of characters.
     }
 }
